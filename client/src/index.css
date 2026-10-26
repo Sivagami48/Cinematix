@@ -1,0 +1,39 @@
+:root {
+  --bg: #070d1a;
+  --card: #0f1a30;
+  --blue: #1e90ff;
+  --text: #e6eefc;
+  --muted: #8ea2c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: var(--blue);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media print {
+  nav,
+  .no-print {
+    display: none !important;
+  }
+}
