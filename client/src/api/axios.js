@@ -5,7 +5,7 @@ const API = axios.create({
     import.meta.env.VITE_API_URL ||
     (import.meta.env.DEV
       ? "http://localhost:5000/api"
-      : "https://cinematix-api-pq8r.onrender.com/api"),
+      : "https://cinematix-ks4v.onrender.com/api"),
 });
 
 API.interceptors.request.use((req) => {
